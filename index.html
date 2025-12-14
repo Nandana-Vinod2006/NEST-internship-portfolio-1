@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nandana — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="nav">
+  <h1 class="logo">Nandana</h1>
+  <nav class="menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Hi, I'm <span>Nandana</span>.</h2>
+    <p>A web developer passionate about simple, elegant interfaces and creative digital experiences.</p>
+
+    <div class="hero-buttons">
+      <a href="projects.html" class="btn">View Projects</a>
+      <a href="contact.html" class="btn-outline">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="hero-img">
+    <img src="image/image.jpeg.jpg" alt="Nandana Vinod">
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Nandana Vinod
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
